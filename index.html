@@ -21,6 +21,20 @@
         <h2>Equipo 7</h2>
         <p>Ana María y Patricia.</p>
     </section>
+    <section>
+    <h2>Interacción</h2>
+    <button id="saludar">Saludar</button>
+    <p id="mensaje"></p>
+    </section>
+
+<script>
+    document.getElementById("saludar")
+        .addEventListener("click", function () {
+            document.getElementById("mensaje")
+                .textContent = "¡Bienvenidos al Equipo 7!";
+        });
+</script>
+
 </body>
 </html>
 
